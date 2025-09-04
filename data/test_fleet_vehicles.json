@@ -1,0 +1,39 @@
+{
+  "vehicles": [
+    {
+      "id": "V1",
+      "lat": 45.1134,
+      "lon": -78.57780000000001,
+      "capacity": 4,
+      "status": "idle"
+    },
+    {
+      "id": "V2",
+      "lat": 45.1234,
+      "lon": -78.57780000000001,
+      "capacity": 4,
+      "status": "idle"
+    },
+    {
+      "id": "V3",
+      "lat": 45.133399999999995,
+      "lon": -78.57780000000001,
+      "capacity": 4,
+      "status": "idle"
+    },
+    {
+      "id": "V4",
+      "lat": 45.1134,
+      "lon": -78.5678,
+      "capacity": 4,
+      "status": "idle"
+    },
+    {
+      "id": "V5",
+      "lat": 45.1234,
+      "lon": -78.5678,
+      "capacity": 4,
+      "status": "idle"
+    }
+  ]
+}
