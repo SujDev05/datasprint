@@ -1,0 +1,11 @@
+date,store,product,sales
+2024-05-01,StoreA,Product1,20
+2024-05-01,StoreA,Product2,15
+2024-05-01,StoreB,Product1,18
+2024-05-01,StoreB,Product2,12
+2024-05-02,StoreA,Product1,22
+2024-05-02,StoreA,Product2,14
+2024-05-02,StoreB,Product1,19
+2024-05-02,StoreB,Product2,13
+2024-05-03,StoreA,Product1,21
+2024-05-03,StoreA,Product2,16 

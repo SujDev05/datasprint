@@ -1,0 +1,24 @@
+{
+  "vehicles": [
+    {"id": "V1", "lat": 17.385044, "lon": 78.486671, "capacity": 4, "status": "idle"},
+    {"id": "V2", "lat": 17.400000, "lon": 78.480000, "capacity": 4, "status": "idle"},
+    {"id": "V3", "lat": 17.420000, "lon": 78.495000, "capacity": 2, "status": "idle"},
+    {"id": "V4", "lat": 17.450000, "lon": 78.520000, "capacity": 6, "status": "idle"},
+    {"id": "V5", "lat": 17.390000, "lon": 78.490000, "capacity": 4, "status": "idle"},
+    {"id": "V6", "lat": 17.410000, "lon": 78.485000, "capacity": 2, "status": "idle"},
+    {"id": "V7", "lat": 17.430000, "lon": 78.500000, "capacity": 6, "status": "idle"},
+    {"id": "V8", "lat": 17.440000, "lon": 78.510000, "capacity": 4, "status": "idle"},
+    {"id": "V9", "lat": 17.395000, "lon": 78.475000, "capacity": 2, "status": "idle"},
+    {"id": "V10", "lat": 17.415000, "lon": 78.505000, "capacity": 4, "status": "idle"},
+    {"id": "V11", "lat": 17.425000, "lon": 78.515000, "capacity": 6, "status": "idle"},
+    {"id": "V12", "lat": 17.405000, "lon": 78.495000, "capacity": 2, "status": "idle"},
+    {"id": "V13", "lat": 17.435000, "lon": 78.525000, "capacity": 4, "status": "idle"},
+    {"id": "V14", "lat": 17.385000, "lon": 78.480000, "capacity": 6, "status": "idle"},
+    {"id": "V15", "lat": 17.445000, "lon": 78.530000, "capacity": 2, "status": "idle"},
+    {"id": "V16", "lat": 17.395000, "lon": 78.485000, "capacity": 4, "status": "idle"},
+    {"id": "V17", "lat": 17.420000, "lon": 78.510000, "capacity": 6, "status": "idle"},
+    {"id": "V18", "lat": 17.400000, "lon": 78.490000, "capacity": 2, "status": "idle"},
+    {"id": "V19", "lat": 17.430000, "lon": 78.520000, "capacity": 4, "status": "idle"},
+    {"id": "V20", "lat": 17.410000, "lon": 78.500000, "capacity": 6, "status": "idle"}
+  ]
+}
