@@ -62,9 +62,9 @@ class RealtimeAPIClient:
     def __init__(self):
         # API Keys (set these as environment variables)
         import os
-        self.google_maps_key = "AIzaSyBTA3eACtpCPR9DDi8EhOt1cI7Cy08Mkfg"
-        self.openweather_key = "ad055dd6e78c62c37a3215ffb44a3d9e"
-        self.groq_api_key = "YOUR_GROQ_API_KEY"
+        self.google_maps_key = os.getenv("GOOGLE_MAPS_API_KEY", "YOUR_GOOGLE_MAPS_API_KEY")
+        self.openweather_key = os.getenv("OPENWEATHER_API_KEY", "YOUR_OPENWEATHER_API_KEY")
+        self.groq_api_key = os.getenv("GROQ_API_KEY", "YOUR_GROQ_API_KEY")
         
         # Cache for API responses
         self.traffic_cache = {}
