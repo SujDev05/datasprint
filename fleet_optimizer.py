@@ -259,6 +259,7 @@ class RealtimeAPIClient:
 • AI Processing: ✅ Active
                 """.strip()
             else:
+                logger.warning(f"Groq API error: Status {response.status_code}, Response: {response.text}")
                 # Fallback to simulated recommendations
                 return f"""
 🤖 AI OPTIMIZATION RECOMMENDATIONS (Fallback):
@@ -315,7 +316,7 @@ class RealtimeAPIClient:
             test_vehicles = [Vehicle("V1", 40.7589, -73.9851, 4)]
             test_demands = [Demand("D1", 40.7589, -73.9851, 40.7829, -73.9654, datetime.now(), "ride", 3)]
             ai_result = self.get_ai_optimization(test_vehicles, test_demands, traffic_data, weather_data)
-            if "Groq API" in ai_result:
+            if "via Groq API" in ai_result:
                 results.append("✅ Groq AI API: Connected")
             else:
                 results.append("⚠️ Groq AI API: Using fallback")
@@ -598,7 +599,7 @@ class FleetOptimizer:
             
             # Create figure
             fig = go.Figure()
-            
+        
             # Add vehicles
             for vehicle in self.vehicles:
                 color = 'red' if vehicle.status == 'assigned' else 'green'
